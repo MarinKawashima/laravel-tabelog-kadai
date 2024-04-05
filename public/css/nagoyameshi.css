@@ -1,0 +1,180 @@
+body {/* #f8fafc */
+      background-color: #F5DEB3;
+      font-family: 'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.11px;
+    }
+    
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.13px;
+    }
+    
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+    }
+    
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.04px;
+    }
+    
+    big {
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.08px;
+    }
+    
+    caption {
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.08px;
+    }
+    
+    label {
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #191919;
+    }
+    
+    .nagoyameshi-login-input {
+      border-radius: 2px;
+      border: solid 1px #b2b2b2;
+      background-color: #ffffff;
+    }
+    
+    .nagoyameshi-check-label {
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    
+    .nagoyameshi-require-input-label {
+      border-radius: 1px;
+      background-color: #e2001b;
+    }
+    
+    .nagoyameshi-require-input-label-text {
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+    
+    .nagoyameshi-submit-button {
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      background-color: #ffa500;
+    }
+    
+    .nagoyameshi-login-text {
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color:#ffa500;
+    }
+    /* color: #ffa500; */
+
+.nagoyameshi-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.nagoyameshi-search-input {
+    border: solid 1px #e5e5e5;
+}
+
+.nagoyameshi-search-input::placeholder {
+    opacity: 0.6;
+}
+
+.nagoyameshi-search-button {
+    background-color: #ffa500;
+}
+
+.nagoyameshi-search-icon {
+    color: #ffffff;
+}
+
+.nagoyameshi-header-fav-icon {
+    color: #191919;
+}
+
+.nagoyameshi-header-shoppingcart-icon {
+    color: #ffffff;
+}
+
+.category-image {
+    max-width: 120px;
+    height: 120px;
+}
+
+.nagoyameshi-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+    border-radius: 5px;
+}
+
+.review-score-color {
+    color: #ffa500;
+}
+  
+.review-score-color:focus {
+    color: #ffa500;
+}
+
+.nagoyameshi-favorite-button {
+    border-radius: 2px;
+    border: solid 1px #ffa500;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+  
+.text-favorite {
+    color: #ffa500;
+}
+
+
