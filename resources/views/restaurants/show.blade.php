@@ -175,7 +175,7 @@
 <script>
     // 予約フォームの送信前に日付の妥当性をチェックする
     document.getElementById('reservationForm').addEventListener('submit', function(event) {
-        var selectedDate = new Date(document.getElementById('reservation_date').value);
+        var selectedDate = new Date(document.getElementById('reservation_date').value + 'T' + document.getElementById('start_time').value);
         var currentDate = new Date();
         if (selectedDate < currentDate) {
             // 選択された日付が過去の日付である場合はフォームの送信をキャンセルし、エラーメッセージを表示する
